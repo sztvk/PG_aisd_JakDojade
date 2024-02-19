@@ -72,29 +72,6 @@ corresponding output:
 ```
 
 #### Implementation and functionality
+The map is converted to a graph, where each vertex represents each city. Then to find the shortest path form one city to another I used Dijkstra algorithm and BFS.
+Using standard string class and other standard library containers was not allowed, so I implemented my own data structures such as hashmap, priority queue, list and stack. These structures were necessary to pass tests which checked many edge cases and different types of graphs (such as fans, paths, complete graphs, spiral graphs).
 
-1. nie ma używania standardowych rzeczy z cpp
-2. allokacja pamięci
-3. konwertowanie mapy na graf
-4. przechodzenie i szukanie najkrótszej drogi (dfs/bfs)
-5. przyapadki szczególne na jakich działa program
-6. usprawnienia
-
-
-Using standard string class and other standard library containers was not allowed, so I implemented my own data structures such as hashmap, priority queue, list and stack.
-
-
-1 - example
-2 - minimum
-3 - label reading correctness
-4 - correctness
-5 - simple test on a grid
-6 - small fan
-7 - small path
-8 - small complete graph
-9 - large map, few cities
-10 - large map, few cities
-11 - fan, array implementation may not fit in time
-12 - spiral, recursion implementation of search overflows the stack
-13 - long path, array implementation may not fit in time
-14 - many edges
