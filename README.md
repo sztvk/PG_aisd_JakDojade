@@ -1,6 +1,7 @@
 # Jak Dojadę
 
-**April and May 2024**
+**April and May 2024**  
+  
  This program was implemeted for Algorithms and Data Structures course. Author of the original instruction: **Krzysztof Ocetkiewicz** (the description below is based on this instruction). This program was implemented as a simple console application.
 
 A rectangular map divided into squares is given. There are three types of fields:
